@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<a href="http://github.com/Blahfacepants">Created by Archan Das</a>
 </footer>
 
 <style>

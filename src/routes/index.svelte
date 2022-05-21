@@ -4,6 +4,11 @@
 
 <script>
 	import Counter from '$lib/Counter.svelte';
+	import {name} from '../stores.js';
+
+	let message = "bruh";
+
+	name.subscribe(val => {message = val});
 </script>
 
 <svelte:head>
@@ -20,7 +25,7 @@
 			</picture>
 		</div>
 
-		to your new<br />SvelteKit app
+		to your new<br />SvelteKit {message}
 	</h1>
 
 	<h2>
